@@ -1,0 +1,15 @@
+<div class="page home">
+  <form action="/" method="post" class="search-form form" >
+    <input class="input __text" type="text" id="search" name="search"/>
+    <input class="input __submit" type="submit" value="search"/>
+  </form>
+
+  <!-- We've added a search list! -->
+  <ul class="search-list">
+    {{#each searchResults}}
+      <li>
+        {{text}} - {{date}}
+      </li>
+    {{/each}}
+  </ul>
+</div>
