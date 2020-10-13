@@ -1,0 +1,11 @@
+.playingTable {
+  padding-top: 20px;
+  width: 500px;
+  margin: 0 auto
+}
+.playingButtons {
+  padding: 10px 0;
+}
+.card-wrapper {
+  margin: 10px;
+}
